@@ -8,15 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		4FCCDC9529DDBD3600B5E1FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FCCDC9029DDBD3600B5E1FC /* Assets.xcassets */; };
-		4FCCDC9729DDBD3600B5E1FC /* WatchMojiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCCDC9329DDBD3600B5E1FC /* WatchMojiApp.swift */; };
-		4FCCDC9829DDBD3600B5E1FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCCDC9429DDBD3600B5E1FC /* ContentView.swift */; };
+		4FCCDC9C29DDC43900B5E1FC /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FCCDC9B29DDC43900B5E1FC /* main.mm */; };
+		4FCCDC9F29DDC49900B5E1FC /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FCCDC9E29DDC49900B5E1FC /* AppDelegate.mm */; };
+		4FCCDCA229DDC70F00B5E1FC /* _AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FCCDCA029DDC70F00B5E1FC /* _AppDelegate.mm */; };
+		4FCCDCA629DDCD8600B5E1FC /* SceneDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FCCDCA529DDCD8600B5E1FC /* SceneDelegate.mm */; };
+		4FCCDCA929DDCF6300B5E1FC /* _SceneDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FCCDCA729DDCF6300B5E1FC /* _SceneDelegate.mm */; };
+		4FCCDCAF29DDD29100B5E1FC /* BaseViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FCCDCAD29DDD29100B5E1FC /* BaseViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4FCCDC7E29DDBCED00B5E1FC /* WatchMoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchMoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FCCDC9029DDBD3600B5E1FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4FCCDC9329DDBD3600B5E1FC /* WatchMojiApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchMojiApp.swift; sourceTree = "<group>"; };
-		4FCCDC9429DDBD3600B5E1FC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4FCCDC9B29DDC43900B5E1FC /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		4FCCDC9D29DDC49900B5E1FC /* AppDelegate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AppDelegate.hpp; sourceTree = "<group>"; };
+		4FCCDC9E29DDC49900B5E1FC /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		4FCCDCA029DDC70F00B5E1FC /* _AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = _AppDelegate.mm; sourceTree = "<group>"; };
+		4FCCDCA129DDC70F00B5E1FC /* _AppDelegate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = _AppDelegate.hpp; sourceTree = "<group>"; };
+		4FCCDCA329DDCC1F00B5E1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FCCDCA429DDCD8600B5E1FC /* SceneDelegate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SceneDelegate.hpp; sourceTree = "<group>"; };
+		4FCCDCA529DDCD8600B5E1FC /* SceneDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SceneDelegate.mm; sourceTree = "<group>"; };
+		4FCCDCA729DDCF6300B5E1FC /* _SceneDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = _SceneDelegate.mm; sourceTree = "<group>"; };
+		4FCCDCA829DDCF6300B5E1FC /* _SceneDelegate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = _SceneDelegate.hpp; sourceTree = "<group>"; };
+		4FCCDCAD29DDD29100B5E1FC /* BaseViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseViewController.mm; sourceTree = "<group>"; };
+		4FCCDCAE29DDD29100B5E1FC /* BaseViewController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BaseViewController.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,11 +63,45 @@
 		4FCCDC8F29DDBD3600B5E1FC /* WatchMoji */ = {
 			isa = PBXGroup;
 			children = (
-				4FCCDC9029DDBD3600B5E1FC /* Assets.xcassets */,
-				4FCCDC9329DDBD3600B5E1FC /* WatchMojiApp.swift */,
-				4FCCDC9429DDBD3600B5E1FC /* ContentView.swift */,
+				4FCCDC9B29DDC43900B5E1FC /* main.mm */,
+				4FCCDCAA29DDD21B00B5E1FC /* Application */,
+				4FCCDCAB29DDD22500B5E1FC /* Resources */,
+				4FCCDCAC29DDD26600B5E1FC /* Presentations */,
 			);
 			path = WatchMoji;
+			sourceTree = "<group>";
+		};
+		4FCCDCAA29DDD21B00B5E1FC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4FCCDC9D29DDC49900B5E1FC /* AppDelegate.hpp */,
+				4FCCDC9E29DDC49900B5E1FC /* AppDelegate.mm */,
+				4FCCDCA129DDC70F00B5E1FC /* _AppDelegate.hpp */,
+				4FCCDCA029DDC70F00B5E1FC /* _AppDelegate.mm */,
+				4FCCDCA429DDCD8600B5E1FC /* SceneDelegate.hpp */,
+				4FCCDCA529DDCD8600B5E1FC /* SceneDelegate.mm */,
+				4FCCDCA829DDCF6300B5E1FC /* _SceneDelegate.hpp */,
+				4FCCDCA729DDCF6300B5E1FC /* _SceneDelegate.mm */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4FCCDCAB29DDD22500B5E1FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4FCCDCA329DDCC1F00B5E1FC /* Info.plist */,
+				4FCCDC9029DDBD3600B5E1FC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4FCCDCAC29DDD26600B5E1FC /* Presentations */ = {
+			isa = PBXGroup;
+			children = (
+				4FCCDCAE29DDD29100B5E1FC /* BaseViewController.hpp */,
+				4FCCDCAD29DDD29100B5E1FC /* BaseViewController.mm */,
+			);
+			path = Presentations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FCCDC9829DDBD3600B5E1FC /* ContentView.swift in Sources */,
-				4FCCDC9729DDBD3600B5E1FC /* WatchMojiApp.swift in Sources */,
+				4FCCDC9F29DDC49900B5E1FC /* AppDelegate.mm in Sources */,
+				4FCCDC9C29DDC43900B5E1FC /* main.mm in Sources */,
+				4FCCDCAF29DDD29100B5E1FC /* BaseViewController.mm in Sources */,
+				4FCCDCA229DDC70F00B5E1FC /* _AppDelegate.mm in Sources */,
+				4FCCDCA629DDCD8600B5E1FC /* SceneDelegate.mm in Sources */,
+				4FCCDCA929DDCF6300B5E1FC /* _SceneDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +193,8 @@
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -199,8 +251,8 @@
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -252,6 +304,7 @@
 				DEVELOPMENT_TEAM = P53D29U9LJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchMoji/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WatchMoji;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.pookjw.WatchMoji;
@@ -281,6 +334,7 @@
 				DEVELOPMENT_TEAM = P53D29U9LJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchMoji/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = WatchMoji;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.pookjw.WatchMoji;
